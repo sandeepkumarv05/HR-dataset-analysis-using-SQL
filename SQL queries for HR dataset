@@ -25,6 +25,7 @@ select sum(employee_count) as Employee_Count from hrdata;
 
 Attrition Count:
 select count(attrition) from hrdata where attrition='Yes';
+
 Attrition Rate:
 select 
 round (((select count(attrition) from hrdata where attrition='Yes')/ 
