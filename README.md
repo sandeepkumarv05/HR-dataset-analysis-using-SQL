@@ -1,4 +1,6 @@
 Imported HR dataset into the database using postgresql software and performed data validation and analysis using SQL operations.
+
+
 create table hrdata
 (
 	emp_no int8 PRIMARY KEY,
