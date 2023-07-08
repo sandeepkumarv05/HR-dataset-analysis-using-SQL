@@ -75,7 +75,7 @@ group by age_band, gender
 order by age_band, gender desc;
 
 Job Satisfaction Rating
--Run this query first to activate the cosstab() function in postgres
+-Run this query first to activate the crosstab() function in postgres
 CREATE EXTENSION IF NOT EXISTS tablefunc;
 
 -Then run this to get o/p-
